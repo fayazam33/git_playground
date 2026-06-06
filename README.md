@@ -26,15 +26,14 @@ fayazwillpush init https://github.com/username/repo.git
 2. Push code
 fayazwillpush push --message "Added new feature"
 
-Or default message:
-
-fayazwillpush push
+Or default message: fayazwillpush push
 
 🧠 How it works
 Stores repo URL locally in ~/.fayazpush.json
 Uses Git commands internally
 Automates commit + push process
-💡 Example Workflow
+
+Full Workflow-
 fayazwillpush init https://github.com/user/project.git
 fayazwillpush push --message "Initial commit"
 fayazwillpush push --message "Updated model"
@@ -50,5 +49,5 @@ AI commit messages
 Single command push (fayazwilpush)
 Multi-repo support
 
-👨‍💻 Author: Fayaz 
+👨‍💻 Author: Fayaz Ali Muktadir
 
