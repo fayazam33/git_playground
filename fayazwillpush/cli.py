@@ -31,7 +31,7 @@ def init(repo_url: str):
     subprocess.run(["git", "remote", "remove", "origin"], stderr=subprocess.DEVNULL)
     subprocess.run(["git", "remote", "add", "origin", repo_url])
 
-    print("✓ Repo initialized and saved!")
+    print("✓ Repo initialized and saved! ")
 
 
 @app.command()
