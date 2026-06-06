@@ -4,7 +4,11 @@ import typer
 app = typer.Typer()
 
 @app.command()
-def push(repo_url: str):
+def push(
+    repo_url: str,
+    message: str = "Initial Commit"
+):
+
 
     commands = [
         ["git", "init"],
