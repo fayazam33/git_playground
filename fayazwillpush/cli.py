@@ -45,6 +45,6 @@ def push(message: str = "Auto commit"):
 
     subprocess.run(["git", "add", "."])
     subprocess.run(["git", "commit", "-m", message])
-    subprocess.run(["git", "push"])
+    subprocess.run(["git", "push", "-u", "origin", "main"])
 
     print("Fayaz Pushed it successfully!")
