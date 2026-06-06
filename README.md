@@ -1,6 +1,6 @@
-# 🚀 FayazPush
+# 🚀 FayazwillPush
 
-**FayazPush** is a simple CLI tool that automates Git + GitHub workflow in one command.
+**FayazwillPush** is a simple CLI tool that automates Git + GitHub workflow in one command.
 
 No more repeated git commands like:
 ```bash
