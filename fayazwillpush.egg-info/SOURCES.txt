@@ -1,0 +1,9 @@
+pyproject.toml
+fayazwillpush/__init__.py
+fayazwillpush/cli.py
+fayazwillpush.egg-info/PKG-INFO
+fayazwillpush.egg-info/SOURCES.txt
+fayazwillpush.egg-info/dependency_links.txt
+fayazwillpush.egg-info/entry_points.txt
+fayazwillpush.egg-info/requires.txt
+fayazwillpush.egg-info/top_level.txt

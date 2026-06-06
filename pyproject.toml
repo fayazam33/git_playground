@@ -1,0 +1,9 @@
+[project]
+name = "fayazwillpush"
+version = "0.1.0"
+dependencies = [
+    "typer"
+]
+
+[project.scripts]
+fayazwillpush = "fayazwillpush.cli:app"
